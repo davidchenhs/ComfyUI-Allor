@@ -118,13 +118,13 @@ class ImageFilterGaussianBlur:
                 "images": ("IMAGE",),
                 "size_x": ("INT", {
                     "default": 10,
-                    "min": 2,
-                    "step": 2
+                    "min": 1,
+                    "step": 1
                 }),
                 "size_y": ("INT", {
                     "default": 10,
-                    "min": 2,
-                    "step": 2
+                    "min": 1,
+                    "step": 1
                 }),
             },
         }
@@ -151,13 +151,13 @@ class ImageFilterGaussianBlurAdvanced:
                 "images": ("IMAGE",),
                 "size_x": ("INT", {
                     "default": 10,
-                    "min": 2,
-                    "step": 2
+                    "min": 1,
+                    "step": 1
                 }),
                 "size_y": ("INT", {
                     "default": 10,
-                    "min": 2,
-                    "step": 2
+                    "min": 1,
+                    "step": 1
                 }),
                 "sigma_x": ("INT", {
                     "default": 0,
@@ -191,12 +191,12 @@ class ImageFilterStackBlur:
                 "size_x": ("INT", {
                     "default": 10,
                     "min": 1,
-                    "step": 2
+                    "step": 1
                 }),
                 "size_y": ("INT", {
                     "default": 10,
                     "min": 1,
-                    "step": 2
+                    "step": 1
                 }),
             },
         }
@@ -224,7 +224,7 @@ class ImageFilterMedianBlur:
                 "size": ("INT", {
                     "default": 10,
                     "min": 1,
-                    "step": 2
+                    "step": 1
                 }),
             },
         }
@@ -254,7 +254,7 @@ class ImageFilterBilateralBlur:
                 "size": ("INT", {
                     "default": 10,
                     "min": 1,
-                    "step": 2
+                    "step": 1
                 }),
                 "sigma_color": ("FLOAT", {
                     "default": 1.0,
